@@ -36,3 +36,9 @@ Name, address and email appear in `impressum.html`, `contact.html`,
 `scripts/make_images.py` rebuilds `assets/img/` from the app repo's
 `Branding/screenshots/` (resizes, blurs the album cover, makes icons and the
 share image). Never use the lock-screen preview screenshot or real album art.
+
+## Changing styles or the script
+
+Pages load `assets/style.css?v=1` and `assets/blob.js?v=1`. After editing either file,
+bump the number in every page (e.g. `sed -i '' 's/style.css?v=1/style.css?v=2/' *.html`)
+so returning visitors don't keep a cached old copy.
