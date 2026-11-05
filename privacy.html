@@ -13,7 +13,7 @@
   <meta name="twitter:card" content="summary_large_image">
   <link rel="icon" href="assets/img/favicon.png" type="image/png">
   <link rel="apple-touch-icon" href="assets/img/apple-touch-icon.png">
-  <link rel="stylesheet" href="assets/style.css?v=1">
+  <link rel="stylesheet" href="assets/style.css?v=2">
 </head>
 <body>
   <a class="skip" href="#main">Skip to content</a>
@@ -42,10 +42,10 @@
         <p>Hassaan Asif, Julius-Raab-Straße 10, 4040 Linz, Austria. Email: <a href="mailto:hassaan.asif2005@gmail.com">hassaan.asif2005@gmail.com</a>. Full details are in the <a href="impressum.html">Impressum</a>.</p>
 
         <h2>Audio stays on your Mac</h2>
-        <p>To animate the Blob and Glass bars modes, Ripple analyses the sound of the music app you choose (Spotify or Apple Music) in real time, on your Mac. Audio is never recorded, saved or uploaded, and Ripple does not use your microphone. macOS asks for your permission (Screen &amp; System Audio Recording) before this works; Ripple uses it only for your music app's audio and does not read or save screen images.</p>
+        <p>To animate the Blob and Glass bars modes, Ripple analyses the sound of the audio source you choose in real time, on your Mac: Spotify, Apple Music, or — if you pick "All Mac audio" in Settings — everything your Mac is playing, which can include video and call audio. Audio is never recorded, saved or uploaded, and Ripple does not use your microphone. macOS asks for your permission (Screen &amp; System Audio Recording) before this works; Ripple uses it only for the audio source you chose and does not read or save screen images.</p>
 
         <h2>What's playing</h2>
-        <p>With your permission (macOS Automation), Ripple reads the current song's title, artist, album, artwork and playback position from the Spotify or Music app on your Mac, and sends playback commands when you use its controls. This stays on your Mac, except for lyrics.</p>
+        <p>With your permission (macOS Automation), Ripple reads the current song's title, artist, album, artwork and playback position from the Spotify or Music app on your Mac, and sends playback commands when you use its controls. This stays on your Mac, with two exceptions: lyrics (below), and for Spotify, the cover image is downloaded from Spotify's servers, which see your IP address. Apple Music artwork is read from the Music app on your Mac.</p>
 
         <h2>Lyrics</h2>
         <p>To show timed lyrics, Ripple sends the song's title, artist, album and length to <a href="https://lrclib.net">LRCLIB</a>, a free public lyrics service, and receives the lyrics back. Like any web service, LRCLIB also sees your IP address. No account or personal identifier is sent.</p>
@@ -55,7 +55,7 @@
 
         <h2>Licenses and purchases</h2>
         <p>Purchases are handled by Lemon Squeezy, which sells Ripple as our reseller (merchant of record) and processes your payment, billing and tax details under <a href="https://www.lemonsqueezy.com/privacy">its own privacy policy</a>. We receive your name, email address, country and order details from Lemon Squeezy so we can provide support and refunds. We never see your full card details.</p>
-        <p>To check that a subscription is active, the Ripple app sends your license key and this Mac's name (for example "Hassaan's MacBook Pro", so you can tell your Macs apart) to Lemon Squeezy when you activate it, about once a day afterwards, and when you deactivate it. Ripple stores the key and check times in your Mac's Keychain.</p>
+        <p>To check that a subscription is active, the Ripple app sends your license key and this Mac's name (for example "Hassaan's MacBook Pro", so you can tell your Macs apart) to Lemon Squeezy when you activate it; later checks send the key and an activation ID — about once a day, and when you deactivate this Mac. Ripple stores the key and check times in your Mac's Keychain.</p>
         <p>The 7-day free trial is tracked only on your Mac, in the Keychain. Starting it sends nothing anywhere.</p>
 
         <h2>Diagnostic reports</h2>
@@ -64,8 +64,17 @@
         <h2>This website</h2>
         <p>This website uses no cookies, analytics, tracking or advertising, and loads nothing from other companies. It is hosted on GitHub Pages; GitHub processes technical data such as your IP address to deliver the pages, as described in <a href="https://docs.github.com/site-policy/privacy-policies/github-general-privacy-statement">GitHub's privacy statement</a>.</p>
 
+        <h2>Recipients and transfers</h2>
+        <p>Data leaves your Mac only to these services: Lemon Squeezy and its parent company Stripe (purchases and license checks), GitHub (hosting this website), Google (our email provider, for support emails you send us), LRCLIB (lyrics) and Spotify (artwork, and your Liked Songs if you connect your account). Lemon Squeezy, Stripe, GitHub, Google and Spotify may process data in the United States; where they do, they rely on the EU–US Data Privacy Framework or the European Commission's standard contractual clauses.</p>
+
         <h2>Legal basis and retention</h2>
-        <p>We process purchase and license data to perform our contract with you (Art. 6(1)(b) GDPR) and keep invoices for as long as Austrian tax law requires. Support emails are kept while needed to help you and then deleted.</p>
+        <ul>
+          <li>Purchases, license activation and checks: performing our contract with you (Art. 6(1)(b) GDPR). Lemon Squeezy keeps license and activation records while your license exists.</li>
+          <li>Invoices: legal obligation (Art. 6(1)(c)), kept for as long as Austrian tax law requires (generally 7 years).</li>
+          <li>Lyrics and Spotify artwork lookups: our legitimate interest in providing the features you use (Art. 6(1)(f)); nothing is stored by us.</li>
+          <li>Support emails: our legitimate interest in answering you (Art. 6(1)(f)); kept while needed to help you, then deleted.</li>
+          <li>Website server logs: GitHub's legitimate interest in delivering and securing the site (Art. 6(1)(f)).</li>
+        </ul>
 
         <h2>Your rights</h2>
         <p>You can ask for access to, correction or deletion of your personal data, restriction of or objection to its processing, and a copy of it, by emailing <a href="mailto:hassaan.asif2005@gmail.com">hassaan.asif2005@gmail.com</a>. You can also complain to the Austrian Data Protection Authority (<a href="https://www.dsb.gv.at">dsb.gv.at</a>).</p>

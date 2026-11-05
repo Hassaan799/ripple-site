@@ -20,6 +20,12 @@ Publish by committing and pushing `main`; GitHub Pages updates within a few minu
 
 ## Switching on Buy and Download
 
+Before switching on checkout, confirm in the Lemon Squeezy dashboard that prices are
+**tax-inclusive** (the site says "Prices include VAT where applicable" — if VAT were added
+at checkout, €2.99 would no longer be the final price), that the license activation limit
+is 2, and that a refund disables the key or cancels the subscription (the refund page says
+Ripple stops working once a refund is processed).
+
 Until checkout and a notarized download exist, these are disabled
 `<a class="button is-soon" aria-disabled="true">` elements in `index.html`
 (hero download button and both pricing cards). To switch one on: add
@@ -29,7 +35,7 @@ Until checkout and a notarized download exist, these are disabled
 ## Owner details
 
 Name, address and email appear in `impressum.html`, `contact.html`,
-`privacy.html` and the footer `mailto:` links. Search for the email to change it everywhere.
+`privacy.html`, `refund.html` and `terms.html`. Search for the email to change it everywhere.
 
 ## Images
 
@@ -39,6 +45,6 @@ share image). Never use the lock-screen preview screenshot or real album art.
 
 ## Changing styles or the script
 
-Pages load `assets/style.css?v=1` and `assets/blob.js?v=1`. After editing either file,
+Pages load `assets/style.css?v=N` and `assets/blob.js?v=N`. After editing either file,
 bump the number in every page (e.g. `sed -i '' 's/style.css?v=1/style.css?v=2/' *.html`)
 so returning visitors don't keep a cached old copy.

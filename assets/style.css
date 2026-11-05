@@ -163,6 +163,7 @@ section { padding: 96px 0 0; }
   position: absolute; top: 20px; right: 20px;
   padding: 4px 10px; border-radius: 999px;
   background: rgba(255, 255, 255, .12); border: 1px solid var(--edge);
+  color: var(--muted);
 }
 .plan .price { margin: 14px 0 4px; font: 650 48px/1 var(--display); letter-spacing: -.04em; }
 .plan .price small { font: 500 17px var(--sans); letter-spacing: 0; color: var(--muted); }
