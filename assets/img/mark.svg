@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="none">
+  <title>Ripple — three waves</title>
+  <g stroke="#F6F3DE" stroke-width="10" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M40 91 C56 91 57 77 73 77 S90 91 106 91 S123 77 139 77 S156 91 172 91 S189 77 205 77 S217 86 220 87"/>
+    <path d="M40 133 C56 133 57 119 73 119 S90 133 106 133 S123 119 139 119 S156 133 172 133 S189 119 205 119 S217 128 220 129"/>
+    <path d="M40 175 C56 175 57 161 73 161 S90 175 106 175 S123 161 139 161 S156 175 172 175 S189 161 205 161 S217 170 220 171"/>
+  </g>
+</svg>
